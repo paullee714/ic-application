@@ -26,3 +26,16 @@ npx react-native init IcMobile --template react-native-template-typescript
     npx react-native run-ios
     npx react-native run-android
     ```
+
+- install splash screen
+
+    ```shell
+    yarn add react-native-splash-screen
+    react-native link react-native-splash-screen
+    ```
+
+- splash image make
+
+    ```shell
+    react-native set-splash --path ./src/Assets/images/splash.jpg --resize center --background "#FFFFFF"
+    ```
